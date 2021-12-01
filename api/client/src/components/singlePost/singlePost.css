@@ -1,0 +1,94 @@
+.single-post {
+    width: 100vw;
+    /* background-color: rebeccapurple; */
+}
+
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.post-container {
+    padding: 30px 50px;
+    font-family: "Outfit", sans-serif;
+}
+
+.head {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 5px 0 35px;
+}
+
+.head .post-img {
+    flex: 4;
+    object-fit: cover;
+}
+
+.head .single-info {
+    flex: 6;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* margin-left: 50px; */
+    font-family: "Nunito", sans-serif;
+    padding: 0;
+}
+
+.single-post-title {
+    min-width: 400px;
+    margin: 35px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+}
+
+.edit-icons {
+    margin-right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.edit-icons .edit {
+    margin-right: 15px;
+    color: green;
+}
+
+.edit-icons .delete {
+    color: tomato;
+}
+
+.post-img {
+    min-width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.single-post-info {
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #b39656;
+    font-family: "Varela Round", sans-serif;
+}
+
+.single-post-content {
+    color: #666;
+    line-height: 25px;
+    font-size: 18px;
+    min-width: 400px;
+}
+
+.single-post-content::first-letter {
+    margin-left: 20px;
+    font-size: 35px;
+    font-weight: 800;
+}
